@@ -1,42 +1,76 @@
-# 🎵 Music Intelligence
+# Music Intelligence
 
-A data science project for analyzing Spotify tracks and exploring
-the relationship between musical characteristics and song popularity.
+Spotify şarkı verileri üzerinde veri bilimi ve yapay zeka tekniklerini
+kullanarak müzik özellikleri ile şarkı popülerliği arasındaki ilişkileri
+inceleyen bir veri analizi ve makine öğrenmesi projesidir.
 
-## 📊 Dataset
+## Veri Seti
 
-The project uses a Spotify tracks dataset containing:
+Projede 114.000 şarkı ve 20 farklı özellik içeren bir Spotify veri seti
+kullanılmaktadır.
 
-- 114,000 tracks
-- 20 features
+Veri setinde aşağıdaki bilgiler yer almaktadır:
 
-The dataset includes information about:
-
-- Artists
-- Albums
-- Tracks
-- Popularity
-- Danceability
-- Energy
-- Loudness
-- Acousticness
-- Instrumentalness
-- Liveness
-- Valence
+- Sanatçı
+- Albüm
+- Şarkı
+- Popülerlik
+- Dans edilebilirlik (Danceability)
+- Enerji (Energy)
+- Ses seviyesi (Loudness)
+- Akustiklik (Acousticness)
+- Enstrümantallik (Instrumentalness)
+- Canlı performans hissi (Liveness)
+- Duygusallık (Valence)
 - Tempo
-- Genre
+- Müzik türü (Genre)
+- Explicit içerik bilgisi
+- Ton ve zaman imzası
+- Konuşma yoğunluğu (Speechiness)
 
-## 🎯 Project Goals
+## Projenin Amaçları
 
-- Understand and clean real-world music data
-- Perform exploratory data analysis
-- Investigate factors related to song popularity
-- Visualize patterns in the dataset
-- Perform feature engineering
-- Build machine learning models
-- Compare model performances
+Projenin temel amacı, gerçek bir müzik veri setini baştan sona analiz
+ederek veri bilimi ve yapay zeka süreçlerini uygulamalı olarak öğrenmektir.
 
-## 🛠️ Technologies
+Proje kapsamında:
+
+- Gerçek dünya verilerinin incelenmesi ve temizlenmesi
+- Eksik verilerin tespit edilmesi ve işlenmesi
+- Keşifsel veri analizi (EDA) yapılması
+- Müzik özellikleri arasındaki ilişkilerin incelenmesi
+- Şarkı popülerliğini etkileyen faktörlerin araştırılması
+- Veri görselleştirmeleri oluşturulması
+- Yeni özelliklerin (Feature Engineering) oluşturulması
+- Makine öğrenmesi modellerinin geliştirilmesi
+- Farklı modellerin karşılaştırılması
+- Model performanslarının değerlendirilmesi
+
+amaçlanmaktadır.
+
+## Projenin İlerleyen Aşamaları
+
+Proje, veri bilimi ve yapay zeka eğitimindeki 30 ders boyunca
+adım adım geliştirilecektir.
+
+İlerleyen aşamalarda:
+
+1. Veri analizi
+2. Veri temizleme
+3. Keşifsel veri analizi
+4. Veri görselleştirme
+5. Feature Engineering
+6. Korelasyon analizi
+7. Makine öğrenmesi
+8. Model eğitimi
+9. Model karşılaştırması
+10. Model değerlendirmesi
+11. Tahmin sistemi
+12. Projenin son kullanıcıya sunulması
+
+gibi aşamalar gerçekleştirilecektir.
+
+## Kullanılan Teknolojiler
 
 - Python
 - NumPy
@@ -44,14 +78,16 @@ The dataset includes information about:
 - Matplotlib
 - Seaborn
 - Scikit-learn
+- Jupyter Notebook / Google Colab
+- Git & GitHub
 
-## 🚧 Project Status
+## Proje Durumu
 
-Currently in development.
+Geliştirme aşamasındadır.
 
-The project is being developed step by step alongside a
-Data Science and Artificial Intelligence course.
+Proje, veri bilimi ve yapay zeka eğitimiyle paralel olarak
+adım adım geliştirilmektedir.
 
-## 👩‍💻 Author
+## Geliştirici
 
 Elifsu Dallı
